@@ -26,6 +26,6 @@ jobs:
       with:
         node-version: 12
     - name: Install Surge
-      uses: npm install -g surge
+      run: npm install -g surge
     - name: Run Surge
-      uses: surge ./ bootcamp2020waqas.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ bootcamp2020waqas.surge.sh --token ${{secrets.SURGE_TOKEN}}
