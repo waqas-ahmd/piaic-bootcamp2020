@@ -28,4 +28,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ waqas_bootcamp2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: Surge ./ waqas_bootcamp2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
